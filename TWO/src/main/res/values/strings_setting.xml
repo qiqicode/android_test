@@ -1,0 +1,9 @@
+<resources>
+    <string name="settings_label">Settings...</string>
+    <string name="settings_title">我的设定</string>
+    <string name="settings_shortcut">s</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Play background music</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Show hints during play</string>
+</resources>

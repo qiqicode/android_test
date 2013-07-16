@@ -1,0 +1,16 @@
+<resources>
+    <string name="new_game_title">新游戏</string>
+    <string name="new_game_label">新游戏</string>
+
+    <string name="app_name">TWO</string>
+    <string name="new_game_difficulty">难度</string>
+    <string name="easy_label">简单</string>
+    <string name="medium_label">中等</string>
+    <string name="hard_label">很难</string>
+
+    <array name="difficulty">
+        <item>@string/easy_label</item>
+        <item>@string/medium_label</item>
+        <item>@string/hard_label</item>
+    </array>
+</resources>

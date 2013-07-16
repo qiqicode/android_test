@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="test1_label">学习测试1</string>
+    <string name="test1_content">测试1</string>
+</resources>
