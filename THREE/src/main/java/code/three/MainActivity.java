@@ -10,6 +10,7 @@ import code.three.test1.Test1;
 import code.three.test2.Test2;
 import code.three.test3.Test3;
 import code.three.test4.Test4;
+import code.three.test5.Test5;
 
 public class MainActivity extends Activity implements View.OnClickListener{
 
@@ -41,6 +42,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 startActivity(intent);
                 break;
             }
+            case R.id.test_5:
+            {
+                Intent intent = new Intent(MainActivity.this, Test5.class);
+                startActivity(intent);
+                break;
+            }
         }
     }
 
@@ -53,6 +60,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         findViewById(R.id.test_2).setOnClickListener(this);
         findViewById(R.id.test_3).setOnClickListener(this);
         findViewById(R.id.test_4).setOnClickListener(this);
+        findViewById(R.id.test_5).setOnClickListener(this);
     }
 
 

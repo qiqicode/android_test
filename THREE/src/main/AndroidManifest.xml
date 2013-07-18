@@ -41,6 +41,11 @@
                 android:name="code.three.test4.Test4"
                 android:label="@string/test4_label">
         </activity>
+
+        <activity
+                android:name="code.three.test5.Test5"
+                android:label="@string/test5_label">
+        </activity>
     </application>
 
 </manifest>

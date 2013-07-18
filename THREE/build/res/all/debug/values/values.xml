@@ -12,10 +12,12 @@
     <string name="test2_label">学习测试2</string>
     <string name="test3_label">学习测试3</string>
     <string name="test4_label">学习测试4</string>
+    <string name="test5_label">学习测试5</string>
     <string name="test_1">学习1</string>
     <string name="test_2">学习2</string>
     <string name="test_3">学习3</string>
     <string name="test_4">学习4</string>
+    <string name="test_5">学习5</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
