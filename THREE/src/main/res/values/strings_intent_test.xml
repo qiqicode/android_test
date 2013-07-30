@@ -1,0 +1,8 @@
+<resources>
+    <string name="intent_button">Intent提交</string>
+    <string name="intent_label">Intent标签</string>
+
+    <string name="intent_label1">Intent:</string>
+    <string name="go_easy">Go</string>
+    <string name="go_results">Go With Results</string>
+</resources>

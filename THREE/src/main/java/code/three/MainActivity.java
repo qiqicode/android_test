@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
+import code.three.intent_test.IntentTest;
 import code.three.test1.Test1;
 import code.three.test2.Test2;
 import code.three.test3.Test3;
@@ -48,6 +49,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 startActivity(intent);
                 break;
             }
+            case R.id.test_6:
+            {
+                Intent intent = new Intent(MainActivity.this, IntentTest.class);
+                startActivity(intent);
+                break;
+            }
         }
     }
 
@@ -61,6 +68,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         findViewById(R.id.test_3).setOnClickListener(this);
         findViewById(R.id.test_4).setOnClickListener(this);
         findViewById(R.id.test_5).setOnClickListener(this);
+        findViewById(R.id.test_6).setOnClickListener(this);
     }
 
 

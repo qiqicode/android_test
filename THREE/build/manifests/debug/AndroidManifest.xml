@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="code.three">
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/NoBar">
+        <activity android:label="@string/app_name" android:name="code.three.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:label="@string/test1_label" android:name="code.three.test1.Test1">
+        </activity>
+
+        <activity android:label="@string/test2_label" android:name="code.three.test2.Test2">
+        </activity>
+
+        <activity android:label="@string/test3_label" android:name="code.three.test3.Test3">
+        </activity>
+
+        <activity android:label="@string/test4_label" android:name="code.three.test4.Test4">
+        </activity>
+
+        <activity android:label="@string/test5_label" android:name="code.three.test5.Test5">
+        </activity>
+
+        <activity android:label="@string/intent_label" android:name="code.three.intent_test.IntentTest">
+
+        </activity>
+    </application>
+
+</manifest>

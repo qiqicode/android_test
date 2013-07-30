@@ -6,7 +6,12 @@
 
     <string name="action_settings">Settings</string>
     <string name="app_name">THREE</string>
+    <string name="go_easy">Go</string>
+    <string name="go_results">Go With Results</string>
     <string name="hello_world">Hello world!</string>
+    <string name="intent_button">Intent提交</string>
+    <string name="intent_label">Intent标签</string>
+    <string name="intent_label1">Intent:</string>
     <string name="test1_content">测试1</string>
     <string name="test1_label">学习测试1</string>
     <string name="test2_label">学习测试2</string>
@@ -18,6 +23,7 @@
     <string name="test_3">学习3</string>
     <string name="test_4">学习4</string>
     <string name="test_5">学习5</string>
+    <string name="test_6">Intent模拟</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
