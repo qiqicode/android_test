@@ -1,7 +1,7 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1375191185698 1726 216d84d01c2279492f0663385a2465ee05a9a0fb C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\values\values.xml
+1375283555760 1947 d6955cf5f7ad2ea82abb2c464ee3e71147acb464 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\values\values.xml
 1373820659845 210 c41731f5631a90fa989588ef97e9476fc244b438 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\values-v11\values.xml
 1373987075917 412 00dfce04b2aa570a37c13bc8b475fecbe3469e73 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_test_4.xml
 1373820659797 12251 973606f6c25175defb0d50a3a986f641527a5d81 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
@@ -16,5 +16,6 @@
 1373820659794 244 045ff451db7cd8e61285502b8c9bbf7405f2078d C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\menu\main.xml
 1373820659793 7256 bb485e1fe327a18b768799861b4c527a0f3af4fc C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\drawable-xhdpi\ic_launcher.png
 1373904989266 407 7975ee60f417aa17122eaf9c140b1134c85dd3b4 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_test_2.xml
-1375190064034 1394 2a1d7a53058a721c435a2d03b01fc59746a4d4c7 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_main.xml
+1375291097382 2052 bf70703fc05ef723187ea8a97ab244a9d3b64e98 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_main.xml
 1375191185669 1285 770a0d45a2cda5022454e031ee38a09b4499fe50 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_test_6.xml
+1375290710527 867 2b17b62789e457c0d07e92df0584cfd626798e16 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_email_text_test.xml

@@ -1,0 +1,5 @@
+<resources>
+    <string name="emailButton">Text Email</string>
+    <string name="email_text">Email_Text</string>
+    <string name="mail_text_label">Email_label</string>
+</resources>

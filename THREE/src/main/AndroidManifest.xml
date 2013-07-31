@@ -52,6 +52,12 @@
                 android:label="@string/intent_label">
 
         </activity>
+
+        <activity
+                android:name="code.three.mail_text_test.MailTextTest"
+                android:label="@string/mail_text_label">
+
+        </activity>
     </application>
 
 </manifest>

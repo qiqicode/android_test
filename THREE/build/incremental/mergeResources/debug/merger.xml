@@ -57,6 +57,8 @@
                 </string>
                 <string name="test_2" >学习2
                 </string>
+                <string name="email_text_test" >TextEmail模拟
+                </string>
                 <string name="hello_world" >Hello world!
                 </string>
                 <string name="test_5" >学习5
@@ -202,6 +204,21 @@
                 <string name="intent_button" >Intent提交
                 </string>
             </file>
+            <file
+                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\values\strings_email_text_test.xml"
+                qualifiers="" >
+                <string name="email_text" >Email_Text
+                </string>
+                <string name="mail_text_label" >Email_label
+                </string>
+                <string name="emailButton" >Text Email
+                </string>
+            </file>
+            <file
+                name="activity_email_text_test"
+                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_email_text_test.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\rs\debug" />
     </dataSet>
