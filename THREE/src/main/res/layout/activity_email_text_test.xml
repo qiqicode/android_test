@@ -18,4 +18,14 @@
             android:text="@string/email_text"
             android:inputType="text">
     </EditText>
+
+    <EditText
+            android:autoText="@string/email_text"
+            android:id="@+id/email_attachment_location_text"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:lines="10"
+            android:inputType="text">
+
+    </EditText>
 </LinearLayout>
