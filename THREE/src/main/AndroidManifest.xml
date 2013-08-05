@@ -56,8 +56,20 @@
         <activity
                 android:name="code.three.mail_text_test.MailTextTest"
                 android:label="@string/mail_text_label">
-
         </activity>
+
+        <activity
+                android:name="code.three.activity_for_result.ResultTest"
+                android:label="Activity_result">
+        </activity>
+
+        <activity
+                android:label="Activity_result_sub"
+                android:name="code.three.activity_for_result.SubTest">
+        </activity>
+
+        <activity android:name=".activity_for_result.MainTest"
+                  android:label="Activity_result_main"></activity>
     </application>
 
 </manifest>

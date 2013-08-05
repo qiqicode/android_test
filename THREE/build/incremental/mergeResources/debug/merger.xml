@@ -57,11 +57,13 @@
                 </string>
                 <string name="test_2" >学习2
                 </string>
-                <string name="hello_world" >Hello world!
-                </string>
                 <string name="email_text_test" >TextEmail模拟
                 </string>
+                <string name="hello_world" >Hello world!
+                </string>
                 <string name="test_5" >学习5
+                </string>
+                <string name="push_text" >子push到父活动信息
                 </string>
                 <string name="test_6" >Intent模拟
                 </string>
@@ -105,9 +107,6 @@
                     <!-- All customizations that are NOT specific to a particular API-level can go here. -->
                 </style>
             </file>
-            <file
-                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\values-sw600dp\dimens.xml"
-                qualifiers="sw600dp" />
             <file
                 path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\values-sw720dp-land\dimens.xml"
                 qualifiers="sw720dp-land" >
@@ -217,6 +216,29 @@
             <file
                 name="activity_email_text_test"
                 path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_email_text_test.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_result_main_test"
+                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_result_main_test.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\values\strings_activity_for_result.xml"
+                qualifiers="" >
+                <string name="result_sub" >子活动
+                </string>
+                <string name="result_main" >主活动
+                </string>
+            </file>
+            <file
+                name="activity_result_sub_test"
+                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_result_sub_test.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_result_test"
+                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_result_test.xml"
                 qualifiers=""
                 type="layout" />
         </source>

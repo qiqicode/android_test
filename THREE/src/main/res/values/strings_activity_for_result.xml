@@ -1,0 +1,4 @@
+<resources>
+    <string name="result_main">主活动</string>
+    <string name="result_sub">子活动</string>
+</resources>

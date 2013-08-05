@@ -30,8 +30,15 @@
         </activity>
 
         <activity android:label="@string/mail_text_label" android:name="code.three.mail_text_test.MailTextTest">
-
         </activity>
+
+        <activity android:label="Activity_result" android:name="code.three.activity_for_result.ResultTest">
+        </activity>
+
+        <activity android:label="Activity_result_sub" android:name="code.three.activity_for_result.SubTest">
+        </activity>
+
+        <activity android:label="Activity_result_main" android:name="code.three.activity_for_result.MainTest"/>
     </application>
 
 </manifest>

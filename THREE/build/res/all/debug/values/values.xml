@@ -1,34 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
     <string name="app_name">THREE</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_email_text_test.xml -->
     <string name="emailButton">Text Email</string>
     <string name="email_text">Email_Text</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
     <string name="email_text_test">TextEmail模拟</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_intent_test.xml -->
     <string name="go_easy">Go</string>
     <string name="go_results">Go With Results</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
     <string name="hello_world">Hello world!</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_intent_test.xml -->
     <string name="intent_button">Intent提交</string>
     <string name="intent_label">Intent标签</string>
     <string name="intent_label1">Intent:</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_email_text_test.xml -->
     <string name="mail_text_label">Email_label</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
+    <string name="push_text">子push到父活动信息</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_activity_for_result.xml -->
+    <string name="result_main">主活动</string>
+    <string name="result_sub">子活动</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_test_1.xml -->
     <string name="test1_content">测试1</string>
     <string name="test1_label">学习测试1</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_test_2.xml -->
     <string name="test2_label">学习测试2</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_test_3.xml -->
     <string name="test3_label">学习测试3</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_test_4.xml -->
     <string name="test4_label">学习测试4</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_test_5.xml -->
     <string name="test5_label">学习测试5</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
     <string name="test_1">学习1</string>
     <string name="test_2">学习2</string>
     <string name="test_3">学习3</string>
     <string name="test_4">学习4</string>
     <string name="test_5">学习5</string>
     <string name="test_6">Intent模拟</string>
-
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
