@@ -1,0 +1,4 @@
+<resources>
+    <string name="service_start">后台服务开始</string>
+    <string name="service_stop">后台服务结束</string>
+</resources>

@@ -16,5 +16,6 @@
     <string name="test_6">Intent模拟</string>
     <string name="email_text_test">TextEmail模拟</string>
     <string name="push_text">子push到父活动信息</string>
+    <string name="service_test">后台运行服务</string>
 
 </resources>

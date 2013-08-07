@@ -28,6 +28,11 @@
     <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_activity_for_result.xml -->
     <string name="result_main">主活动</string>
     <string name="result_sub">子活动</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_service_test.xml -->
+    <string name="service_start">后台服务开始</string>
+    <string name="service_stop">后台服务结束</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
+    <string name="service_test">后台运行服务</string>
     <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_test_1.xml -->
     <string name="test1_content">测试1</string>
     <string name="test1_label">学习测试1</string>

@@ -66,6 +66,13 @@
                 android:layout_width="wrap_content"
                 android:text="@string/push_text">
         </Button>
+
+        <Button
+                android:id="@+id/test_9"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/service_test">
+        </Button>
     </LinearLayout>
 </LinearLayout>
 <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/layout/activity_main.xml -->

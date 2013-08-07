@@ -9,6 +9,7 @@ import android.view.View;
 import code.three.activity_for_result.ResultTest;
 import code.three.intent_test.IntentTest;
 import code.three.mail_text_test.MailTextTest;
+import code.three.service_test.ServiceTest;
 import code.three.test1.Test1;
 import code.three.test2.Test2;
 import code.three.test3.Test3;
@@ -68,6 +69,11 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 Intent intent = new Intent(MainActivity.this, ResultTest.class);
                 startActivity(intent);
             }
+            case R.id.test_9:
+            {
+                Intent intent = new Intent(MainActivity.this, ServiceTest.class);
+                startActivity(intent);
+            }
         }
     }
 
@@ -84,6 +90,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         findViewById(R.id.test_6).setOnClickListener(this);
         findViewById(R.id.test_7).setOnClickListener(this);
         findViewById(R.id.test_8).setOnClickListener(this);
+        findViewById(R.id.test_9).setOnClickListener(this);
     }
 
 

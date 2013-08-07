@@ -70,6 +70,18 @@
 
         <activity android:name=".activity_for_result.MainTest"
                   android:label="Activity_result_main"></activity>
+
+        <activity android:name="code.three.service_test.ServiceTest"
+                  android:label="Service_Test"></activity>
+
+        <activity android:name="code.three.service_test.StartTest"
+                  android:label="ServictTestStart"></activity>
+
+        <activity android:name="code.three.service_test.StopTest"
+                  android:label="ServiceTestStop"></activity>
+
+        <service android:enabled="true"
+                 android:name="code.three.service_test.TestService"></service>
     </application>
 
 </manifest>
