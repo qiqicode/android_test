@@ -8,11 +8,14 @@
         android:minSdkVersion="7"
         android:targetSdkVersion="16" />
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/NoBar" >
+        android:theme="@style/AppBaseTheme"
+        android:debuggable="true">
         <activity
             android:name="code.three.MainActivity"
             android:label="@string/app_name" >
@@ -82,6 +85,9 @@
 
         <service android:enabled="true"
                  android:name="code.three.service_test.TestService"></service>
+
+        <activity android:name="code.three.async_task_test.AsyncTaskTest"
+                  android:label="AsyncTaskTest"></activity>
     </application>
 
 </manifest>

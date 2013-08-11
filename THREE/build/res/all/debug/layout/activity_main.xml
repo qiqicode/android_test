@@ -73,6 +73,18 @@
                 android:layout_width="wrap_content"
                 android:text="@string/service_test">
         </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+        <Button
+                android:id="@+id/test_10"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/async_task_test">
+        </Button>
     </LinearLayout>
 </LinearLayout>
 <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/layout/activity_main.xml -->

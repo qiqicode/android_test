@@ -2,7 +2,9 @@
 
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
 
-    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/NoBar">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppBaseTheme">
         <activity android:label="@string/app_name" android:name="code.three.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -47,6 +49,8 @@
         <activity android:label="ServiceTestStop" android:name="code.three.service_test.StopTest"/>
 
         <service android:enabled="true" android:name="code.three.service_test.TestService"/>
+
+        <activity android:label="AsyncTaskTest" android:name="code.three.async_task_test.AsyncTaskTest"/>
     </application>
 
 </manifest>
