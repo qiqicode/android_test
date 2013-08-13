@@ -88,6 +88,9 @@
 
         <activity android:name="code.three.async_task_test.AsyncTaskTest"
                   android:label="AsyncTaskTest"></activity>
+
+        <activity android:name="code.three.read_app_file_test.ReadAppFile"
+                  android:label="ReadAppFile"></activity>
     </application>
 
 </manifest>

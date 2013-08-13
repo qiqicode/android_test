@@ -18,5 +18,6 @@
     <string name="push_text">子push到父活动信息</string>
     <string name="service_test">后台运行服务</string>
     <string name="async_task_test">异步任务处理</string>
+    <string name="read_app_file_test">读取app内部文档</string>
 
 </resources>

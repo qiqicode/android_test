@@ -1,0 +1,11 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/fill_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"></TextView>
+</LinearLayout><!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/layout/activity_show_app_file.xml -->

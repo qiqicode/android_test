@@ -26,6 +26,7 @@
     <string name="mail_text_label">Email_label</string>
     <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
     <string name="push_text">子push到父活动信息</string>
+    <string name="read_app_file_test">读取app内部文档</string>
     <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_activity_for_result.xml -->
     <string name="result_main">主活动</string>
     <string name="result_sub">子活动</string>

@@ -51,6 +51,8 @@
         <service android:enabled="true" android:name="code.three.service_test.TestService"/>
 
         <activity android:label="AsyncTaskTest" android:name="code.three.async_task_test.AsyncTaskTest"/>
+
+        <activity android:label="ReadAppFile" android:name="code.three.read_app_file_test.ReadAppFile"/>
     </application>
 
 </manifest>
