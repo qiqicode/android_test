@@ -73,7 +73,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -157,6 +156,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -166,12 +166,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AsyncTaskTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/async_task_test/AsyncTaskTest.java">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="5016">
+            <state line="113" column="0" selection-start="3429" selection-end="3429" vertical-scroll-proportion="-22.73077" vertical-offset="1556" max-vertical-offset="2261">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#515#531#0" expanded="true" />
+                <element signature="e#719#735#0" expanded="true" />
+                <element signature="e#923#939#0" expanded="true" />
+                <element signature="e#1127#1143#0" expanded="true" />
+                <element signature="e#1331#1347#0" expanded="true" />
+                <element signature="e#1694#1710#0" expanded="true" />
+                <element signature="e#1922#1947#0" expanded="true" />
+                <element signature="e#2159#2178#0" expanded="true" />
+                <element signature="e#2529#2551#0" expanded="true" />
+                <element signature="e#2764#2789#0" expanded="true" />
+                <element signature="e#3002#3030#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,30 +193,19 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/THREE/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="46" selection-start="3191" selection-end="3191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+            <state line="91" column="46" selection-start="3116" selection-end="3116" vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="1995">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="DbAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/db/DbAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="130" selection-end="130" vertical-scroll-proportion="0.06896552" vertical-offset="0" max-vertical-offset="1957">
+            <state line="51" column="50" selection-start="1731" selection-end="1737" vertical-scroll-proportion="0.0" vertical-offset="1596" max-vertical-offset="3230">
               <folding>
-                <element signature="e#515#531#0" expanded="true" />
-                <element signature="e#719#735#0" expanded="true" />
-                <element signature="e#923#939#0" expanded="true" />
-                <element signature="e#1127#1143#0" expanded="true" />
-                <element signature="e#1331#1347#0" expanded="true" />
-                <element signature="e#1536#1552#0" expanded="true" />
-                <element signature="e#1895#1920#0" expanded="true" />
-                <element signature="e#2132#2151#0" expanded="true" />
-                <element signature="e#2363#2385#0" expanded="true" />
-                <element signature="e#2734#2759#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1792#1800#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,7 +214,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="47" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
+            <state line="21" column="27" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
@@ -221,54 +223,54 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="60" selection-start="2863" selection-end="2863" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="2128">
+            <state line="97" column="22" selection-start="3205" selection-end="3205" vertical-scroll-proportion="0.0" vertical-offset="1262" max-vertical-offset="2261">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadAppFile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/read_app_file_test/ReadAppFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="31" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="798">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MailTextTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/mail_text_test/MailTextTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="24" selection-start="526" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1349">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_async_list_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_async_list_item.xml">
+      <file leaf-file-name="activity_db_test.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_db_test.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="38" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="247">
+            <state line="14" column="37" selection-start="493" selection-end="493" vertical-scroll-proportion="-10.230769" vertical-offset="0" max-vertical-offset="532">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_show_app_file.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_show_app_file.xml">
+      <file leaf-file-name="strings_db_test.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings_db_test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="33" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_async_task_test.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_async_task_test.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="15" selection-start="386" selection-end="386" vertical-scroll-proportion="-7.3076925" vertical-offset="0" max-vertical-offset="304">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="855">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdvancedSearchActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/db/AdvancedSearchActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="34" selection-start="317" selection-end="317" vertical-scroll-proportion="-0.39514732" vertical-offset="513" max-vertical-offset="1387">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1260#1863#0" expanded="true" />
+                <element signature="e#1852#1853#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -341,22 +343,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_service_test.xml" />
-        <option value="$PROJECT_DIR$/THREE/src/main/res/values/strings_service_test.xml" />
-        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/service_test/StopTest.java" />
-        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/service_test/StartTest.java" />
         <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/service_test/ServiceTest.java" />
         <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/service_test/TestService.java" />
         <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_task_test.xml" />
         <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/async_task_test/Datum.java" />
         <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_async_list_item.xml" />
         <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/async_task_test/AsyncTaskTest.java" />
-        <option value="$PROJECT_DIR$/THREE/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_show_app_file.xml" />
-        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/MainActivity.java" />
         <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/read_app_file_test/ReadAppFile.java" />
-        <option value="$PROJECT_DIR$/THREE/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/db/DbAdapter.java" />
         <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/THREE/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/db/AdvancedSearchActivity.java" />
+        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/MainActivity.java" />
+        <option value="$PROJECT_DIR$/THREE/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/THREE/src/main/res/values/strings_db_test.xml" />
+        <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_db_test.xml" />
       </list>
     </option>
   </component>
@@ -584,7 +586,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -648,284 +650,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THREE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="three" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read_app_file_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THREE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="three" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mail_text_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THREE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="three" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intent_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THREE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THREE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THREE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THREE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scopes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWOProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dictionaries" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1241,12 +973,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32046333" sideWeight="0.6490765" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32046333" sideWeight="0.6490765" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32818532" sideWeight="0.79683375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.79683375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39577836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34960422" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1260,7 +992,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.6741425" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328722" sideWeight="0.67094016" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2998713" sideWeight="0.79683375" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25997427" sideWeight="0.79683375" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20316623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1360,70 +1092,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_async_task_test.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/widget/ListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="438" column="16" selection-start="15313" selection-end="15313" vertical-scroll-proportion="0.0" vertical-offset="7072" max-vertical-offset="69426">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17395" column="0" selection-start="673309" selection-end="673309" vertical-scroll-proportion="0.0" vertical-offset="328500" max-vertical-offset="347624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="4112" selection-end="4112" vertical-scroll-proportion="0.0" vertical-offset="1434" max-vertical-offset="14687">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="13" selection-start="4737" selection-end="4737" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="5149">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TWO/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/async_task_test/AsyncTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="5225">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/os/AsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="0" selection-start="10694" selection-end="10694" vertical-scroll-proportion="0.0" vertical-offset="3714" max-vertical-offset="12198">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="47" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
           <folding />
         </state>
       </provider>
@@ -1433,14 +1109,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="386" selection-end="386" vertical-scroll-proportion="-7.3076925" vertical-offset="0" max-vertical-offset="304">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="60" selection-start="2863" selection-end="2863" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="2128">
+        <state line="10" column="15" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="304">
           <folding />
         </state>
       </provider>
@@ -1448,15 +1117,6 @@
     <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/mail_text_test/MailTextTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="24" selection-start="526" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1349">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="46" selection-start="3191" selection-end="3191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
           <folding />
         </state>
       </provider>
@@ -1464,9 +1124,7 @@
     <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/read_app_file_test/ReadAppFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="31" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="798">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1480,23 +1138,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/os/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="231" column="0" selection-start="10694" selection-end="10694" vertical-scroll-proportion="0.0" vertical-offset="3714" max-vertical-offset="12198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="130" selection-end="130" vertical-scroll-proportion="0.06896552" vertical-offset="0" max-vertical-offset="1957">
+        <state line="113" column="0" selection-start="3429" selection-end="3429" vertical-scroll-proportion="-22.73077" vertical-offset="1556" max-vertical-offset="2261">
           <folding>
             <element signature="e#515#531#0" expanded="true" />
             <element signature="e#719#735#0" expanded="true" />
             <element signature="e#923#939#0" expanded="true" />
             <element signature="e#1127#1143#0" expanded="true" />
             <element signature="e#1331#1347#0" expanded="true" />
-            <element signature="e#1536#1552#0" expanded="true" />
-            <element signature="e#1895#1920#0" expanded="true" />
-            <element signature="e#2132#2151#0" expanded="true" />
-            <element signature="e#2363#2385#0" expanded="true" />
-            <element signature="e#2734#2759#0" expanded="true" />
+            <element signature="e#1694#1710#0" expanded="true" />
+            <element signature="e#1922#1947#0" expanded="true" />
+            <element signature="e#2159#2178#0" expanded="true" />
+            <element signature="e#2529#2551#0" expanded="true" />
+            <element signature="e#2764#2789#0" expanded="true" />
+            <element signature="e#3002#3030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="27" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_async_task_test.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="22" selection-start="3205" selection-end="3205" vertical-scroll-proportion="0.0" vertical-offset="1262" max-vertical-offset="2261">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="46" selection-start="3116" selection-end="3116" vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings_db_test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="33" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_db_test.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="493" selection-end="493" vertical-scroll-proportion="-10.230769" vertical-offset="0" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/db/DbAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="50" selection-start="1731" selection-end="1737" vertical-scroll-proportion="0.0" vertical-offset="1596" max-vertical-offset="3230">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1792#1800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/db/AdvancedSearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="317" selection-end="317" vertical-scroll-proportion="-0.39514732" vertical-offset="513" max-vertical-offset="1387">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1260#1863#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
           </folding>
         </state>
       </provider>

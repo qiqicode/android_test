@@ -65,6 +65,8 @@
                 </string>
                 <string name="test_4" >学习4
                 </string>
+                <string name="db" >DB查询1
+                </string>
                 <string name="app_name" >THREE
                 </string>
                 <string name="read_app_file_test" >读取app内部文档
@@ -275,6 +277,17 @@
                 path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_show_app_file.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="activity_db_test"
+                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_db_test.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\values\strings_db_test.xml"
+                qualifiers="" >
+                <string name="db_search" >搜   索
+                </string>
+            </file>
         </source>
         <source path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\rs\debug" />
     </dataSet>

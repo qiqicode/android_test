@@ -8,6 +8,7 @@ import android.view.View;
 
 import code.three.activity_for_result.ResultTest;
 import code.three.async_task_test.AsyncTaskTest;
+import code.three.db.AdvancedSearchActivity;
 import code.three.intent_test.IntentTest;
 import code.three.mail_text_test.MailTextTest;
 import code.three.read_app_file_test.ReadAppFile;
@@ -90,6 +91,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 startActivity(intent);
                 break;
             }
+            case R.id.test_12:
+            {
+                Intent intent = new Intent(MainActivity.this, AdvancedSearchActivity.class);
+                startActivity(intent);
+                break;
+            }
         }
     }
 
@@ -109,6 +116,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         findViewById(R.id.test_9).setOnClickListener(this);
         findViewById(R.id.test_10).setOnClickListener(this);
         findViewById(R.id.test_11).setOnClickListener(this);
+        findViewById(R.id.test_12).setOnClickListener(this);
     }
 
 

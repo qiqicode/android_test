@@ -43,17 +43,20 @@
 
     </Button>
 
-    <Button
-            android:id="@+id/test_6"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="@string/test_6">
-    </Button>
+
     </LinearLayout>
 
     <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/test_6"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/test_6">
+        </Button>
+
         <Button
                 android:id="@+id/test_7"
                 android:layout_height="wrap_content"
@@ -68,6 +71,14 @@
                 android:text="@string/push_text">
         </Button>
 
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+
         <Button
                 android:id="@+id/test_9"
                 android:layout_height="wrap_content"
@@ -75,11 +86,6 @@
                 android:text="@string/service_test">
         </Button>
 
-    </LinearLayout>
-
-    <LinearLayout
-            android:layout_height="wrap_content"
-            android:layout_width="fill_parent">
         <Button
                 android:id="@+id/test_10"
                 android:layout_height="wrap_content"
@@ -93,5 +99,15 @@
                 android:layout_width="wrap_content"
                 android:text="@string/read_app_file_test">
         </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        <Button
+                android:id="@+id/test_12"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/db"></Button>
     </LinearLayout>
 </LinearLayout>

@@ -53,6 +53,8 @@
         <activity android:label="AsyncTaskTest" android:name="code.three.async_task_test.AsyncTaskTest"/>
 
         <activity android:label="ReadAppFile" android:name="code.three.read_app_file_test.ReadAppFile"/>
+
+        <activity android:label="DBSearch" android:name="code.three.db.AdvancedSearchActivity"/>
     </application>
 
 </manifest>
