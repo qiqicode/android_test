@@ -55,6 +55,8 @@
         <activity android:label="ReadAppFile" android:name="code.three.read_app_file_test.ReadAppFile"/>
 
         <activity android:label="DBSearch" android:name="code.three.db.AdvancedSearchActivity"/>
+
+        <activity android:label="Json" android:name="code.three.json.JsonTest"/>
     </application>
 
 </manifest>

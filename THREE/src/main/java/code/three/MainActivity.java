@@ -10,6 +10,7 @@ import code.three.activity_for_result.ResultTest;
 import code.three.async_task_test.AsyncTaskTest;
 import code.three.db.AdvancedSearchActivity;
 import code.three.intent_test.IntentTest;
+import code.three.json.JsonTest;
 import code.three.mail_text_test.MailTextTest;
 import code.three.read_app_file_test.ReadAppFile;
 import code.three.service_test.ServiceTest;
@@ -97,6 +98,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 startActivity(intent);
                 break;
             }
+            case R.id.test_13:
+            {
+                Intent intent = new Intent(MainActivity.this, JsonTest.class);
+                startActivity(intent);
+                break;
+            }
         }
     }
 
@@ -117,6 +124,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         findViewById(R.id.test_10).setOnClickListener(this);
         findViewById(R.id.test_11).setOnClickListener(this);
         findViewById(R.id.test_12).setOnClickListener(this);
+        findViewById(R.id.test_13).setOnClickListener(this);
     }
 
 

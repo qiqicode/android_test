@@ -94,6 +94,9 @@
 
         <activity android:name="code.three.db.AdvancedSearchActivity"
                   android:label="DBSearch"></activity>
+
+        <activity android:name="code.three.json.JsonTest"
+                  android:label="Json"></activity>
     </application>
 
 </manifest>

@@ -109,5 +109,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="@string/db"></Button>
+
+        <Button
+                android:id="@+id/test_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/json_test"></Button>
     </LinearLayout>
 </LinearLayout>

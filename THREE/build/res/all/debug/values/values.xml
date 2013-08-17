@@ -16,6 +16,8 @@
     <string name="email_text">Email_Text</string>
     <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
     <string name="email_text_test">TextEmail模拟</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_json.xml -->
+    <string name="get_json">显示Json信息</string>
     <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_intent_test.xml -->
     <string name="go_easy">Go</string>
     <string name="go_results">Go With Results</string>
@@ -25,6 +27,8 @@
     <string name="intent_button">Intent提交</string>
     <string name="intent_label">Intent标签</string>
     <string name="intent_label1">Intent:</string>
+    <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
+    <string name="json_test">Json操作</string>
     <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_email_text_test.xml -->
     <string name="mail_text_label">Email_label</string>
     <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
