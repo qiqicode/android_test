@@ -22,5 +22,6 @@
     <string name="db">DB查询1</string>
     <string name="json_test">Json操作</string>
     <string name="contact_test">联系人操作</string>
+    <string name="contact_data_info_str">联系信息查询</string>
 
 </resources>

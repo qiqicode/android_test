@@ -73,6 +73,8 @@
                 </string>
                 <string name="app_name" >THREE
                 </string>
+                <string name="contact_data_info_str" >联系信息查询
+                </string>
                 <string name="read_app_file_test" >读取app内部文档
                 </string>
                 <string name="hello_world" >Hello world!
@@ -311,6 +313,8 @@
             <file
                 path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\values\strings_contact_test.xml"
                 qualifiers="" >
+                <string name="contact_data_btn_str" >输入联系id，查询对应号码
+                </string>
                 <string name="contact_find_btn_str" >通过电话号码进行查找
                 </string>
                 <string name="contact_raw_info_btn_str" >复杂条件查找联系人
@@ -330,6 +334,11 @@
             <file
                 name="activity_contact_raw"
                 path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_contact_raw.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_contact_data"
+                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_contact_data.xml"
                 qualifiers=""
                 type="layout" />
         </source>

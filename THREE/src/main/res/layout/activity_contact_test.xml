@@ -8,4 +8,16 @@
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:text="@string/contact_find_btn_str"></Button>
+
+    <Button
+            android:id="@+id/contact_raw_info_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/contact_raw_info_btn_str"></Button>
+
+    <Button
+            android:id="@+id/contact_data_info_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/contact_data_info_str"></Button>
 </LinearLayout>

@@ -17,6 +17,37 @@ public class ContactAdapter {
         this.context = context;
     }
 
+    public List<String> getContactData(int contactId) {
+        Uri uri = ContactsContract.Data.CONTENT_URI;
+        Cursor cursor = this.context.getContentResolver().query(
+                uri,
+                new String[] {
+                        ContactsContract.CommonDataKinds.Phone.NUMBER
+                },
+                ContactsContract.Data._ID + "=?" + " AND "
+                        + ContactsContract.Data.MIMETYPE + "='" + ContactsContract.CommonDataKinds.Phone.CONTENT_ITEM_TYPE + "'",
+                new String[] {
+                        String.valueOf(contactId)
+                },
+                null
+        );
+        List<String> list = new ArrayList<String>();
+        while (cursor.moveToNext()) {
+            int iNumber = cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER);
+            String number = cursor.getString(iNumber);
+            list.add(number);
+        }
+
+        return list;
+    }
+
+    /**
+     * 查找联系人信息，通过RawContacts接口
+     * @param account_name
+     * @param account_type
+     * @param name
+     * @return
+     */
     public List<String> getContactUseRawContacts(String account_name, String account_type, String name) {
         if(null == account_name || "".equals(account_name)) return new ArrayList<String>();
         if(null == account_type || "".equals(account_type)) return new ArrayList<String>();

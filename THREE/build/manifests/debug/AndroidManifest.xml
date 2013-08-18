@@ -65,6 +65,8 @@
         <activity android:label="ContactFind" android:name="code.three.contact.ContactMainActivity"/>
 
         <activity android:label="ContactRaw" android:name="code.three.contact.ContactUseRawActivity"/>
+
+        <activity android:label="ContactData" android:name="code.three.contact.ContactDataActivity"/>
     </application>
 
 </manifest>

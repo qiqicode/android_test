@@ -108,6 +108,9 @@
 
         <activity android:name="code.three.contact.ContactUseRawActivity"
                   android:label="ContactRaw"></activity>
+
+        <activity android:name="code.three.contact.ContactDataActivity"
+                  android:label="ContactData"></activity>
     </application>
 
 </manifest>
