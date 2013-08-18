@@ -154,6 +154,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/THREE/src/main/java/code/three/contact/ContactActivity.java" line="34" class="code.three.contact.ContactActivity" package="code.three.contact">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
@@ -165,22 +180,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DbAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/db/DbAdapter.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="50" selection-start="1731" selection-end="1737" vertical-scroll-proportion="0.0" vertical-offset="1596" max-vertical-offset="3230">
+            <state line="13" column="0" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="2147">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactAdapter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/contact/ContactAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="21" selection-start="894" selection-end="894" vertical-scroll-proportion="0.5467742" vertical-offset="155" max-vertical-offset="836">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1792#1800#0" expanded="true" />
+                <element signature="e#979#987#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/AndroidManifest.xml">
+      <file leaf-file-name="Uri.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/net/Uri.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="39" selection-start="3427" selection-end="3427" vertical-scroll-proportion="0.7694974" vertical-offset="1418" max-vertical-offset="2052">
+            <state line="2290" column="43" selection-start="72686" selection-end="72703" vertical-scroll-proportion="0.0" vertical-offset="42649" max-vertical-offset="43757">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactsContract.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/provider/ContactsContract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="3" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0" vertical-offset="2166" max-vertical-offset="160436">
               <folding />
             </state>
           </provider>
@@ -192,7 +225,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="47" selection-start="3604" selection-end="3604" vertical-scroll-proportion="-19.0" vertical-offset="1710" max-vertical-offset="2375">
+            <state line="122" column="38" selection-start="3818" selection-end="3830" vertical-scroll-proportion="-22.346153" vertical-offset="1737" max-vertical-offset="2489">
               <folding />
             </state>
           </provider>
@@ -201,7 +234,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="35" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+            <state line="23" column="37" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
               <folding />
             </state>
           </provider>
@@ -210,66 +243,42 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="22" selection-start="3438" selection-end="3438" vertical-scroll-proportion="0.0" vertical-offset="1285" max-vertical-offset="2394">
+            <state line="111" column="22" selection-start="3688" selection-end="3688" vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="2527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_db_test.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_db_test.xml">
+      <file leaf-file-name="activity_contact_test.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_contact_test.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="37" selection-start="493" selection-end="493" vertical-scroll-proportion="-10.230769" vertical-offset="0" max-vertical-offset="532">
+            <state line="20" column="0" selection-start="787" selection-end="787" vertical-scroll-proportion="-14.615385" vertical-offset="0" max-vertical-offset="513">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvancedSearchActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/db/AdvancedSearchActivity.java">
+      <file leaf-file-name="strings_contact_test.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings_contact_test.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="28" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1387">
+            <state line="1" column="50" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/contact/ContactActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="56" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-9.84" vertical-offset="457" max-vertical-offset="1102">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1852#1853#0" expanded="true" />
+                <element signature="e#638#827#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/json/JsonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="27" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1330">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#516#700#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_json_test.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_json_test.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="2" selection-start="578" selection-end="578" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="437">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings_json.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings_json.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="36" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -333,10 +342,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/async_task_test/Datum.java" />
-        <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_async_list_item.xml" />
-        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/async_task_test/AsyncTaskTest.java" />
-        <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_show_app_file.xml" />
         <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/read_app_file_test/ReadAppFile.java" />
         <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/db/DbAdapter.java" />
         <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/db/AdvancedSearchActivity.java" />
@@ -344,11 +349,15 @@
         <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_db_test.xml" />
         <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_json_test.xml" />
         <option value="$PROJECT_DIR$/THREE/src/main/res/values/strings_json.xml" />
+        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/json/JsonTest.java" />
         <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/THREE/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/THREE/src/main/res/layout/activity_contact_test.xml" />
+        <option value="$PROJECT_DIR$/THREE/src/main/res/values/strings_contact_test.xml" />
         <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/MainActivity.java" />
-        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/json/JsonTest.java" />
+        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/contact/ContactActivity.java" />
         <option value="$PROJECT_DIR$/THREE/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/THREE/src/main/java/code/three/contact/ContactAdapter.java" />
       </list>
     </option>
   </component>
@@ -640,7 +649,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TWO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TWOProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="THREE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -968,7 +1011,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32046333" sideWeight="0.6490765" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32046333" sideWeight="0.6490765" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.79683375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32818532" sideWeight="0.8865435" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39577836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34960422" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -982,8 +1025,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.6741425" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328722" sideWeight="0.67094016" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25997427" sideWeight="0.79683375" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20316623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25997427" sideWeight="0.8865435" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.113456465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1082,80 +1125,61 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/mail_text_test/MailTextTest.java">
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/db/AdvancedSearchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="526" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1349">
-          <folding />
+        <state line="45" column="54" selection-start="1398" selection-end="1407" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1387">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1260#1863#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/read_app_file_test/ReadAppFile.java">
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/activity_for_result/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="798">
-          <folding />
+        <state line="10" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_async_list_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/activity_for_result/ResultTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="38" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="247">
-          <folding />
+        <state line="20" column="9" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="912">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1043#1326#0" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="false" />
+            <element signature="e#1413#1721#0" expanded="false" />
+            <element signature="e#1702#1703#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/os/AsyncTask.java">
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/activity_for_result/SubTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="0" selection-start="10694" selection-end="10694" vertical-scroll-proportion="0.0" vertical-offset="3714" max-vertical-offset="12198">
-          <folding />
+        <state line="13" column="2" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_async_task_test.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/database/sqlite/SQLiteCursor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings_db_test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_db_test.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="493" selection-end="493" vertical-scroll-proportion="-10.230769" vertical-offset="0" max-vertical-offset="532">
+        <state line="34" column="13" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="2679" max-vertical-offset="4845">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/db/DbAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="50" selection-start="1731" selection-end="1737" vertical-scroll-proportion="0.0" vertical-offset="1596" max-vertical-offset="3230">
+        <state line="60" column="66" selection-start="2215" selection-end="2227" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="3230">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1792#1800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/db/AdvancedSearchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="28" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1387">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1165,57 +1189,81 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="47" selection-start="3604" selection-end="3604" vertical-scroll-proportion="-19.0" vertical-offset="1710" max-vertical-offset="2375">
+        <state line="122" column="38" selection-start="3818" selection-end="3830" vertical-scroll-proportion="-22.346153" vertical-offset="1737" max-vertical-offset="2489">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="35" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+        <state line="23" column="37" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings_contact_test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="50" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_contact_test.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="787" selection-end="787" vertical-scroll-proportion="-14.615385" vertical-offset="0" max-vertical-offset="513">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="22" selection-start="3438" selection-end="3438" vertical-scroll-proportion="0.0" vertical-offset="1114" max-vertical-offset="2394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/json/JsonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1330">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#516#700#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/layout/activity_json_test.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="578" selection-end="578" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/THREE/src/main/res/values/strings_json.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="36" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
+        <state line="111" column="22" selection-start="3688" selection-end="3688" vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="2527">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/THREE/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="39" selection-start="3427" selection-end="3427" vertical-scroll-proportion="0.7694974" vertical-offset="1418" max-vertical-offset="2052">
+        <state line="13" column="0" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="2147">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/provider/ContactsContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="3" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0" vertical-offset="2166" max-vertical-offset="160436">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/contact/ContactActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="56" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-9.84" vertical-offset="457" max-vertical-offset="1102">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#638#827#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/net/Uri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2290" column="43" selection-start="72686" selection-end="72703" vertical-scroll-proportion="0.0" vertical-offset="42649" max-vertical-offset="43757">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/THREE/src/main/java/code/three/contact/ContactAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="21" selection-start="894" selection-end="894" vertical-scroll-proportion="0.5467742" vertical-offset="155" max-vertical-offset="836">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#979#987#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

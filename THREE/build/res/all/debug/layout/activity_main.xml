@@ -115,6 +115,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/json_test"></Button>
+
+        <Button
+                android:id="@+id/test_14"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/contact_test"></Button>
     </LinearLayout>
 </LinearLayout>
 <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/layout/activity_main.xml -->

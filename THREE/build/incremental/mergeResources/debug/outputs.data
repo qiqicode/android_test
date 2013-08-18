@@ -1,7 +1,7 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1376717271275 5288 7dfd14c7012bba91c416f85ba997a1b24aa52bff C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\values\values.xml
+1376811757884 5660 7efe3ce5f167068278d3b8050ea0ddf2775a824e C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\values\values.xml
 1376670876349 877 160dd7dd90428e575cd1a7c79e0bbdb2b113d679 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_db_test.xml
 1376415700482 520 219fcbfe9f8e424be1e31c02c81b720fc6689557 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_show_app_file.xml
 1375722341086 527 9abee2e8353ebc14c071639dd18197046b45c262 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_result_main_test.xml
@@ -11,7 +11,7 @@
 1376214853100 411 1b30b7bdb0a3bbbee368f460544d43d468b0a940 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_async_list_item.xml
 1376717271237 728 93ecf96ffc75061d66f8478ffe734238faa39531 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_json_test.xml
 1373904989266 407 7975ee60f417aa17122eaf9c140b1134c85dd3b4 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_test_2.xml
-1376717271238 3767 f2e5432e9266d4c84a40e4afeeb0d4fead884c29 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_main.xml
+1376811757855 3993 78279bb74884898775c64f807978d1175fb3e361 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_main.xml
 1375191185669 1285 770a0d45a2cda5022454e031ee38a09b4499fe50 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_test_6.xml
 1373820659845 210 c41731f5631a90fa989588ef97e9476fc244b438 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\values-v11\values.xml
 1375722341086 790 90ce861820d2e72a6e14dfd1a0670c6bab92c817 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_result_test.xml
@@ -27,4 +27,5 @@
 1373820659794 244 045ff451db7cd8e61285502b8c9bbf7405f2078d C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\menu\main.xml
 1373820659793 7256 bb485e1fe327a18b768799861b4c527a0f3af4fc C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\drawable-xhdpi\ic_launcher.png
 1376214853100 1593 a6916aff3b2493b35ea3af62676b8246ea34f8e0 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_async_task_test.xml
+1376811757855 947 f3f13e02281661281e04c05ef986721902c0c043 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_contact_test.xml
 1375375132676 1185 dac9b3df76ac4036a8523e81973dcbb417187333 C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\build\res\all\debug\layout\activity_email_text_test.xml
