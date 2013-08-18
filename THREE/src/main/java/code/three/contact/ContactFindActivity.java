@@ -14,11 +14,11 @@ import code.three.R;
 /**
  * Created by qiqicode on 13-8-18.
  */
-public class ContactActivity extends Activity {
+public class ContactFindActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contact_test);
+        setContentView(R.layout.activity_contact_find);
         Button button = (Button)findViewById(R.id.contact_find_name_btn);
         button.setOnClickListener(
                 new View.OnClickListener() {

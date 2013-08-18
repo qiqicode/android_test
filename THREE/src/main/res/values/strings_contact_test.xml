@@ -1,3 +1,4 @@
 <resources>
     <string name="contact_find_name_btn_str">查找联系人</string>
+    <string name="contact_find_btn_str">通过电话号码进行查找</string>
 </resources>

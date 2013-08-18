@@ -100,8 +100,11 @@
         <activity android:name="code.three.json.JsonTest"
                   android:label="Json"></activity>
 
-        <activity android:name="code.three.contact.ContactActivity"
+        <activity android:name="code.three.contact.ContactFindActivity"
                   android:label="Contact"></activity>
+
+        <activity android:name="code.three.contact.ContactMainActivity"
+                  android:label="ContactFind"></activity>
     </application>
 
 </manifest>

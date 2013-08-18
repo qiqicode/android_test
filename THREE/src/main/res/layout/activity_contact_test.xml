@@ -3,20 +3,9 @@
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
         android:orientation="vertical">
-    <EditText
-            android:id="@+id/contact_find_name_et"
-            android:layout_height="wrap_content"
-            android:layout_width="fill_parent"></EditText>
-
     <Button
-            android:id="@+id/contact_find_name_btn"
+            android:id="@+id/contact_find_btn"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
-            android:text="@string/contact_find_name_btn_str"></Button>
-
-    <TextView
-            android:id="@+id/contact_find_name_tv"
-            android:layout_height="wrap_content"
-            android:layout_width="fill_parent"></TextView>
-
+            android:text="@string/contact_find_btn_str"></Button>
 </LinearLayout>

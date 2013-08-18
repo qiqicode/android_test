@@ -8,7 +8,8 @@ import android.view.View;
 
 import code.three.activity_for_result.ResultTest;
 import code.three.async_task_test.AsyncTaskTest;
-import code.three.contact.ContactActivity;
+import code.three.contact.ContactFindActivity;
+import code.three.contact.ContactMainActivity;
 import code.three.db.AdvancedSearchActivity;
 import code.three.intent_test.IntentTest;
 import code.three.json.JsonTest;
@@ -107,7 +108,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
             }
             case R.id.test_14:
             {
-                Intent intent = new Intent(MainActivity.this, ContactActivity.class);
+                Intent intent = new Intent(MainActivity.this, ContactMainActivity.class);
                 startActivity(intent);
                 break;
             }
