@@ -17,6 +17,55 @@ public class ContactAdapter {
         this.context = context;
     }
 
+    public List<String> getContactUseRawContacts(String account_name, String account_type, String name) {
+        if(null == account_name || "".equals(account_name)) return new ArrayList<String>();
+        if(null == account_type || "".equals(account_type)) return new ArrayList<String>();
+        Uri uri = ContactsContract.RawContacts.CONTENT_URI.buildUpon()
+                .appendQueryParameter(ContactsContract.RawContacts.ACCOUNT_NAME, account_name)
+                .appendQueryParameter(ContactsContract.RawContacts.ACCOUNT_TYPE, account_type)
+                .build();
+
+        Cursor cursor = this.context.getContentResolver().query(
+                uri,
+                new String[]{
+                        ContactsContract.RawContacts._ID,
+                        ContactsContract.RawContacts.ACCOUNT_NAME,
+                        ContactsContract.RawContacts.ACCOUNT_TYPE,
+                        ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY
+                },
+                ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY + " like ? ",
+                new String[] {
+                        "%" + name + "%"
+                },
+                null
+                );
+
+        int iID = cursor.getColumnIndex(ContactsContract.RawContacts._ID);
+        int iAccountName = cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_NAME);
+        int iAccountType = cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE);
+        int iDisplayNamePrimary = cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY);
+        String id;
+        String accountName;
+        String accountType;
+        String displayNamePrimary;
+        List<String> contactsList = new ArrayList<String>();
+        while (cursor.moveToNext()) {
+            id = cursor.getString(iID);
+            accountName = cursor.getString(iAccountName);
+            accountType = cursor.getString(iAccountType);
+            displayNamePrimary = cursor.getString(iDisplayNamePrimary);
+            StringBuilder sb = new StringBuilder();
+            sb.append(id).append("|").append(accountName).append("|").append(accountType).append("|").append(displayNamePrimary);
+            contactsList.add(sb.toString());
+        }
+        return contactsList;
+    }
+
+    /**
+     * 通过电话号码查询联系人信息
+     * @param phoneNum
+     * @return
+     */
     public List<String> getContactByNum(String phoneNum) {
         if(null == phoneNum || "".equals(phoneNum)) return new ArrayList<String>();
         Uri uri = Uri.withAppendedPath(ContactsContract.PhoneLookup.CONTENT_FILTER_URI, Uri.encode(phoneNum));
@@ -34,5 +83,38 @@ public class ContactAdapter {
             displayNameList.add(displayName);
         }
         return displayNameList;
+    }
+
+    public List<String> getAllContactAccount() {
+        Uri uri = ContactsContract.RawContacts.CONTENT_URI;
+        Cursor cursor = this.context.getContentResolver().query(
+                uri,
+                new String[]{
+                        ContactsContract.RawContacts.ACCOUNT_NAME,
+                        ContactsContract.RawContacts.ACCOUNT_TYPE,
+                        ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY,
+                        ContactsContract.RawContacts.STARRED
+                },
+                null,
+                null,
+                null
+        );
+        StringBuilder sb = new StringBuilder();
+        List<String> list = new ArrayList<String>();
+        while (cursor.moveToNext()) {
+            sb.setLength(0);
+            int iAccountName = cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_NAME);
+            int iAccountType = cursor.getColumnIndex(ContactsContract.RawContacts.ACCOUNT_TYPE);
+            int iDisplayNamePrimary = cursor.getColumnIndex(ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY);
+            int iStarred = cursor.getColumnIndex(ContactsContract.RawContacts.STARRED);
+
+            String accountName = cursor.getString(iAccountName);
+            String accountType = cursor.getString(iAccountType);
+            String displayNamePrimary = cursor.getString(iDisplayNamePrimary);
+            Integer starred = cursor.getInt(iStarred);
+            sb.append(accountName).append(",").append(accountType).append(",").append(displayNamePrimary).append(",").append(starred);
+            list.add(sb.toString());
+        }
+        return list;
     }
 }

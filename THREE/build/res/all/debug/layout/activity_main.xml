@@ -122,5 +122,15 @@
                 android:layout_width="wrap_content"
                 android:text="@string/contact_test"></Button>
     </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/test_15"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/contact_raw_info_btn_str"></Button>
+    </LinearLayout>
 </LinearLayout>
 <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/layout/activity_main.xml -->

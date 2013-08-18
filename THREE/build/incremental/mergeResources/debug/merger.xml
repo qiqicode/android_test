@@ -313,12 +313,23 @@
                 qualifiers="" >
                 <string name="contact_find_btn_str" >通过电话号码进行查找
                 </string>
-                <string name="contact_find_name_btn_str" >查找联系人
+                <string name="contact_raw_info_btn_str" >复杂条件查找联系人
+                </string>
+                <string name="contact_find_name_btn_str" >lookup索引号码查找联系人
+                </string>
+                <string name="contact_raw_account_btn_str" >显示所有的联系人账户
+                </string>
+                <string name="contact_raw_btn_str" >accountName,accountType,name,模糊查询联系人
                 </string>
             </file>
             <file
                 name="activity_contact_find"
                 path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_contact_find.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_contact_raw"
+                path="C:\Users\qiqicode\AndroidStudioProjects\TWOProject\THREE\src\main\res\layout\activity_contact_raw.xml"
                 qualifiers=""
                 type="layout" />
         </source>

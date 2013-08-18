@@ -10,6 +10,7 @@ import code.three.activity_for_result.ResultTest;
 import code.three.async_task_test.AsyncTaskTest;
 import code.three.contact.ContactFindActivity;
 import code.three.contact.ContactMainActivity;
+import code.three.contact.ContactUseRawActivity;
 import code.three.db.AdvancedSearchActivity;
 import code.three.intent_test.IntentTest;
 import code.three.json.JsonTest;
@@ -112,6 +113,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 startActivity(intent);
                 break;
             }
+            case R.id.test_15:
+            {
+                Intent intent = new Intent(MainActivity.this, ContactUseRawActivity.class);
+                startActivity(intent);
+                break;
+            }
         }
     }
 
@@ -134,6 +141,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         findViewById(R.id.test_12).setOnClickListener(this);
         findViewById(R.id.test_13).setOnClickListener(this);
         findViewById(R.id.test_14).setOnClickListener(this);
+        findViewById(R.id.test_15).setOnClickListener(this);
     }
 
 
