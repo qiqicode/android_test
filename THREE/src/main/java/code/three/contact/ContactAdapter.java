@@ -24,8 +24,9 @@ public class ContactAdapter {
                 new String[] {
                         ContactsContract.CommonDataKinds.Phone.NUMBER
                 },
-                ContactsContract.Data._ID + "=?" + " AND "
-                        + ContactsContract.Data.MIMETYPE + "='" + ContactsContract.CommonDataKinds.Phone.CONTENT_ITEM_TYPE + "'",
+                ContactsContract.Data._ID + "=?"
+                      //  + " AND " + ContactsContract.Data.MIMETYPE + "='" + ContactsContract.CommonDataKinds.Phone.CONTENT_ITEM_TYPE + "'",
+                ,
                 new String[] {
                         String.valueOf(contactId)
                 },
