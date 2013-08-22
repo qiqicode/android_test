@@ -20,4 +20,10 @@
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:text="@string/contact_data_info_str"></Button>
+
+    <Button
+            android:id="@+id/contact_create_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/contact_create_btn_str"></Button>
 </LinearLayout>

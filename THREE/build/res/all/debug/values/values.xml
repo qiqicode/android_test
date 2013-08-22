@@ -9,6 +9,8 @@
     <string name="app_name">THREE</string>
     <string name="async_task_test">异步任务处理</string>
     <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings_contact_test.xml -->
+    <string name="contact_create_btn_str">创建新联系人信息</string>
+    <string name="contact_create_go_btn_str">创建</string>
     <string name="contact_data_btn_str">输入联系id，查询对应号码</string>
     <!-- From: file:/C:/Users/qiqicode/AndroidStudioProjects/TWOProject/THREE/src/main/res/values/strings.xml -->
     <string name="contact_data_info_str">联系信息查询</string>

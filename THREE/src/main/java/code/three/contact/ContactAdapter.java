@@ -1,8 +1,12 @@
 package code.three.contact;
 
+import android.content.ContentProviderOperation;
+import android.content.ContentProviderResult;
 import android.content.Context;
+import android.content.OperationApplicationException;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.RemoteException;
 import android.provider.ContactsContract;
 
 import java.util.ArrayList;
@@ -15,6 +19,50 @@ public class ContactAdapter {
     private final Context context;
     public ContactAdapter(Context context) {
         this.context = context;
+    }
+
+    /**
+     * 创建一条联系人记录
+     * @param contactInfo
+     */
+    public ContentProviderResult[] createContact(ContactInfo contactInfo) {
+        try {
+            ArrayList<ContentProviderOperation> ops = new ArrayList<ContentProviderOperation>();
+
+            // 在accountName下插入一条联系人记录
+            ops.add(
+                    ContentProviderOperation.newInsert(ContactsContract.RawContacts.CONTENT_URI)
+                    .withValue(ContactsContract.RawContacts.ACCOUNT_NAME, contactInfo.getAccountType())
+                    .withValue(ContactsContract.RawContacts.ACCOUNT_NAME, contactInfo.getAccountName())
+                    .build()
+            );
+
+            // 为该联系人添加基本信息
+            ops.add(
+                    ContentProviderOperation.newInsert(ContactsContract.Data.CONTENT_URI)
+                    .withValueBackReference(ContactsContract.Data.RAW_CONTACT_ID, 0)
+                    .withValue(ContactsContract.Data.MIMETYPE, ContactsContract.CommonDataKinds.StructuredName.CONTENT_ITEM_TYPE)
+                    .withValue(ContactsContract.CommonDataKinds.StructuredName.DISPLAY_NAME, contactInfo.getName())
+                    .build()
+            );
+
+            // 为该联系人添加电话信息
+            ops.add(
+                    ContentProviderOperation.newInsert(ContactsContract.Data.CONTENT_URI)
+                            .withValueBackReference(ContactsContract.Data.RAW_CONTACT_ID, 0)
+                            .withValue(ContactsContract.Data.MIMETYPE, ContactsContract.CommonDataKinds.Phone.CONTENT_ITEM_TYPE)
+                            .withValue(ContactsContract.CommonDataKinds.Phone.NUMBER, contactInfo.getMobilePhone())
+                            .withValue(ContactsContract.CommonDataKinds.Phone.TYPE, ContactsContract.CommonDataKinds.Phone.TYPE_MOBILE)
+                            .build()
+            );
+
+            return this.context.getContentResolver().applyBatch(ContactsContract.AUTHORITY, ops);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        } catch (OperationApplicationException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public List<String> getContactData(int contactId) {
@@ -65,9 +113,10 @@ public class ContactAdapter {
                         ContactsContract.RawContacts.ACCOUNT_TYPE,
                         ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY
                 },
-                ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY + " like ? ",
+                ContactsContract.RawContacts.DISPLAY_NAME_PRIMARY + " like ? OR " + ContactsContract.RawContacts.Data._ID + "=? " ,
                 new String[] {
-                        "%" + name + "%"
+                        "%" + name + "%",
+                        name
                 },
                 null
                 );
